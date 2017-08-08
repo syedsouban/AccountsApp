@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="93dp"
+        android:layout_height="46dp"
+        android:gravity="center"
+        android:text="Email/Phone"
+        android:textSize="18dp"
+        app:layout_constraintLeft_toLeftOf="@+id/textView7"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="94dp"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:text="SignedUp/Logged in through"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toLeftOf="@+id/textView6"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="94dp"
+
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:text="Name of the website"
+        android:textSize="14dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="16dp" />
+
+    <EditText
+        android:paddingLeft="5dp"
+        android:id="@+id/name_edittext"
+        android:layout_width="228dp"
+        android:layout_height="44dp"
+        android:background="@drawable/edittextdrawable"
+        android:ems="10"
+
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="28dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="28dp" />
+
+    <EditText
+
+        android:paddingLeft="5dp"
+        android:id="@+id/linked_with_edittext"
+        android:layout_width="228dp"
+        android:layout_height="44dp"
+        android:background="@drawable/edittextdrawable"
+        android:ems="10"
+
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/name_edittext"
+        app:layout_constraintRight_toRightOf="@+id/name_edittext" />
+
+    <EditText
+        android:paddingLeft="5dp"
+        android:id="@+id/email_address_edittext"
+        android:layout_width="228dp"
+        android:layout_height="44dp"
+        android:background="@drawable/edittextdrawable"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/linked_with_edittext"
+        app:layout_constraintRight_toRightOf="@+id/linked_with_edittext" />
+
+    <Button
+        android:background="@drawable/buttonbg"
+        android:textColor="#FFFFFF"
+        android:id="@+id/savebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="232dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        app:layout_constraintGuide_begin="16dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline2"
+        app:layout_constraintGuide_begin="30dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="30dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline3"
+        app:layout_constraintGuide_begin="20dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline4"
+        app:layout_constraintGuide_begin="351dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="351dp" />
+</android.support.constraint.ConstraintLayout>

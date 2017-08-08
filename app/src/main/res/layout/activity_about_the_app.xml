@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.syedsauban.accountsapp.AboutTheApp">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="5dp"
+        android:text="This app is for people who signup/login on various websites using Social Media Accounts like Facebook, Twitter,
+LinkedIn, etc.\nTake for example, a lot of E-Commerce webistes like Myntra, Snapdeal, Jabong etc offer signup/login through
+Facebook and Google.\nIt's quite difficult to remember through which Social Media Account we signed up or logged in on
+a particular website.\nIn AccountsApp you can save details of as many Accounts as possible.
+\nDetails such as name of the website, Social Media account used to login/signup on it and Email Id associated
+ with it.\n\nOther websites which offer signup/login through various social accounts.
+"
+        android:textColor="#000000"
+        android:textSize="16sp"
+         />
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="11dp"
+        android:paddingRight="3dp">
+
+
+            <TableRow
+
+                android:background="#284c7e">
+
+                <TextView
+                    style="@style/oddrows"
+                    android:text="Website"
+                    android:textStyle="bold"/>
+                <TextView
+                    style="@style/oddrows"
+                    android:text="Signup/Login offered through"
+                    android:textStyle="bold"
+                    />
+            </TableRow>
+            <TableRow
+
+                android:background="#e0ecf8">
+
+                <TextView
+                    style="@style/evenrows"
+                    android:text="Myntra"
+
+                    />
+                <TextView
+                    style="@style/evenrows"
+                    android:text="Google, Facebook"
+                    />
+            </TableRow>
+            <TableRow
+
+                android:background="#284c7e">
+
+                <TextView
+                    style="@style/oddrows"
+                    android:text="Snapdeal"
+
+                    />
+                <TextView
+                    style="@style/oddrows"
+                    android:text="Google, Facebook"
+                    />
+            </TableRow>
+            <TableRow
+
+                android:background="#e0ecf8">
+
+                <TextView
+                    style="@style/evenrows"
+                    android:text="Quora"
+
+                    />
+                <TextView
+                    style="@style/evenrows"
+                    android:text="Google, Facebook"
+                    />
+            </TableRow>
+            <TableRow
+
+                android:background="#284c7e">
+
+                <TextView
+                    style="@style/oddrows"
+                    android:text="Medium"
+
+                    />
+                <TextView
+                    style="@style/oddrows"
+                    android:text="Google, Facebook, Twitter"
+                    />
+            </TableRow>
+            <TableRow
+
+                android:background="#e0ecf8">
+
+                <TextView
+                    style="@style/evenrows"
+                    android:text="KhanAcademy"
+                    />
+                <TextView
+                    style="@style/evenrows"
+                    android:text="Google, Facebook"
+                    />
+            </TableRow>
+            <TableRow
+
+                android:background="#284c7e">
+
+                <TextView
+                    style="@style/oddrows"
+                    android:text="edX"
+
+                    />
+                <TextView
+                    android:textSize="12dp"
+                    style="@style/oddrows"
+                    android:text="Google, Facebook, Microsoft"
+                    />
+            </TableRow>
+            <TableRow
+
+                android:background="#e0ecf8">
+
+                <TextView
+                    style="@style/evenrows"
+                    android:text="UpLabs"
+                    />
+                <TextView
+                    android:textSize="12dp"
+                    style="@style/evenrows"
+                    android:text="Google, Facebook, Twitter, Github"
+                    />
+            </TableRow>
+            <TableRow
+
+                android:background="#284c7e">
+
+                <TextView
+                    style="@style/oddrows"
+                    android:text="HackerRank"
+
+                    />
+                <TextView
+                    android:textSize="12dp"
+                    style="@style/oddrows"
+                    android:text="Google, Facebook, LinkedIn, Github"
+                    />
+            </TableRow>
+            <TableRow
+
+                android:background="#e0ecf8">
+
+                <TextView
+                    style="@style/evenrows"
+                    android:text="CodeChef"
+                    />
+                <TextView
+                    android:textSize="12dp"
+                    style="@style/evenrows"
+                    android:text="Google, Facebook, Github"
+                    />
+            </TableRow>
+            <TableRow
+
+                android:background="#284c7e">
+
+                <TextView
+                    style="@style/oddrows"
+                    android:text="TopCoder"
+
+                    />
+                <TextView
+                    android:textSize="12dp"
+                    style="@style/oddrows"
+                    android:text="Google, Facebook, Twitter, Github"
+                    />
+            </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
+</ScrollView>
